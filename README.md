@@ -1,3 +1,3 @@
-![nextpng com](https://user-images.githubusercontent.com/27656032/95814883-e1cea500-0cf1-11eb-8ce6-bf075452771a.png)
+![.](https://user-images.githubusercontent.com/27656032/95815250-a8e30000-0cf2-11eb-88be-ed74d864359b.png)
 
 # corinthiansbot
