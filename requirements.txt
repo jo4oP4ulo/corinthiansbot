@@ -1,0 +1,6 @@
+APScheduler==3.6.3
+feedparser==5.2.1
+httpx==0.14.2
+TgCrypto==1.2.1
+youtube-dl==2020.7.28
+https://github.com/pyrogram/pyrogram/archive/master.zip
