@@ -10,6 +10,7 @@ import config
 
 async def feed_meu_timao():
     chat_id = -1001063261019
+    file_id = 0
     mt = MeuTimao()
     l = mt.last_news()
     id_noticia = int(re.findall('[0-9]+', l.url)[0])
