@@ -2,8 +2,8 @@ FROM python:3.8
 
 ENV PYTHONUNBUFFERED True
 
-RUN git clone clone https://github.com/jo4oP4ulo/corinthiansbot.git /root/corinthiansbot
-WORKDIR /root/corinthiansbot/
+RUN git clone clone https://github.com/jo4oP4ulo/corinthiansbot.git /root/corinthians
+WORKDIR /root/corinthians/
 
 # install main requirements.
 COPY requirements.txt /deploy/
