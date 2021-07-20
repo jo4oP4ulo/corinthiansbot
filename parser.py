@@ -49,7 +49,10 @@ class MeuTimao:
 		al = self.parser().entries
 		news = []
 		for info in al:
-			title = info.title
+			try:
+				title = info.title 
+			except:
+				title = 'Noticia'
 			summary = info.summary
 			link = info.link
 			url_midia = info.links[1].href[2:]
