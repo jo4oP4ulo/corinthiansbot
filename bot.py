@@ -119,7 +119,7 @@ app = Client(
     "my_bot",
     api_id = config.login.api_id,
     api_hash = config.login.api_hash,
-    bot_token='TOKEN API BOT',
+    bot_token= config.login.token_bot,
     plugins=plugins,
 )
 
