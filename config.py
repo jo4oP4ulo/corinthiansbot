@@ -1,11 +1,11 @@
 import os
 
 class message:
-    START = """Oi {}, eu sou um bot do bando de loucos 🤘🦅
+    START = """Oi {}, eu sou um bot do <b>Bando de Loucos</b> 🤘🦅
 <b>Meus Comandos </b>\n
-* /start - <b>mostra essa mensagem</b>
-* /noticias - <b>envia  as ultimas noticias do Corinthians</b>
-* /u_noticia - <b>envia uma notica de ultima hora </b>
+* /start - <b>Mostra essa mensagem</b>
+* /noticias - <b>Envia as noticias mais recentes do Corinthians</b>
+* /u_noticia - <b>Envia uma noticia de ultima hora</b>
 """
 
 class login:
