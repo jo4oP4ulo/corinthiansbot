@@ -11,3 +11,4 @@ class message:
 class login:
     api_id = int(os.environ.get("api_id"))
     api_hash = os.environ.get("api_hash")
+    token_bot = os.environ.get("token_bot")
