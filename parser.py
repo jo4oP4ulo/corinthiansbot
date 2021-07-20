@@ -52,7 +52,7 @@ class MeuTimao:
 			try:
 				title = info.title 
 			except:
-				title = 'Noticia'
+				continue
 			summary = info.summary
 			link = info.link
 			url_midia = info.links[1].href[2:]
