@@ -11,4 +11,4 @@ RUN pip3 install --no-cache-dir -r /deploy/requirements.txt
 
 
 RUN pip install --no-cache-dir -r requirements.txt
-CMD python3 bot.py
+CMD python3 /root/corinthians/bot.py
