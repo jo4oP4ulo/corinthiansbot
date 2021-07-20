@@ -49,13 +49,11 @@ class MeuTimao:
 		al = self.parser().entries
 		news = []
 		for info in al:
-			try:
+			if info:
 				title = info.title 
-			except:
-				continue
-			summary = info.summary
-			link = info.link
-			url_midia = info.links[1].href[2:]
-			news.append(FNoticia(title, summary, link, url_midia))
+				summary = info.summary
+				link = info.link
+				url_midia = info.links[1].href[2:]
+				news.append(FNoticia(title, summary, link, url_midia))
 
 		return news
