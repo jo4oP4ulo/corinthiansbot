@@ -127,7 +127,7 @@ async def query(client, message):
 				
 				
 				reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("➕ noticias", switch_inline_query='')]])            
-			) for new in news]
+			) for new in news if 'https://cdn.' in new.img_url]
 	
 	await message.answer(r, 
 		cache_time=1,
